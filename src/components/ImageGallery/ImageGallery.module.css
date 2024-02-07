@@ -1,0 +1,23 @@
+.galleryList {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.galleryItem {
+  flex-basis: calc((100% - 75px) / 4);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: rgb(235, 235, 238) 0px 0px 10px;
+  cursor: pointer;
+  transform: scale(1);
+
+  transition: transform 750ms var(--cubicBezier);
+}
+
+.galleryItem:is(:hover, :focus) {
+  transform: scale(1.04);
+}

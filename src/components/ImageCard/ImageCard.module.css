@@ -1,0 +1,10 @@
+.thumb {
+  height: 200px;
+  /* border: 4px solid #fff; */
+}
+
+@media screen and (max-width: 768px) {
+  .thumb {
+    height: 100px; /* Cards take full width on smaller screens */
+  }
+}

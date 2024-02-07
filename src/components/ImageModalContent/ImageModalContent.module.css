@@ -1,0 +1,47 @@
+.infoWrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 700px;
+
+  display: flex;
+  gap: 50px;
+
+  padding: 15px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.subtitle {
+  font-weight: 500;
+}
+
+.likesWrap {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.fullImgWrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btnWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+.imgIcon {
+  transform: scale(1);
+  transition: scale 250ms var(--cubicBezier);
+}
+
+.imgIcon:is(:hover, :focus) {
+  transform: scale(1.2);
+}

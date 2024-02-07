@@ -1,0 +1,8 @@
+.toast {
+  font-weight: 300;
+  background-color: transparent;
+  color: white;
+  box-shadow: rgb(9, 237, 85) 0px 0px 10px;
+  border: transparent;
+  text-align: center;
+}
